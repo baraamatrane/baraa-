@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projet.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="all">
+    <header>
+        
+        <a class="logo" href="#">E-commerce</a>
+        <nav class="navbar">
+            <a href="#cantact">Contact</a>
+            <a href="#service">service</a>
+            <div class="icone">
+            <img id="cdn"  src="https://cdn-icons-png.flaticon.com/512/263/263142.png" alt="" width="27px" height="27px"> 
+            </div>
+            
+        </nav>
+    </header>
+    <div id="containr">
+        <img id="imgx" src="https://cdn-icons-png.flaticon.com/512/109/109602.png" alt="" width="27px" height="27px"> 
+                
+            <p class="mycart">My cart</p>
+            <div id="empty"><h2 style="font-size: 1.2rem;font-weight: 600; text-align: center; padding: 44px" id="empty">your cart is empty.</h2></div>
+            <div id="cartconta"></div>
+            <div class="pricetotal"></div>
+            <div id="buttonjs"></div>
+           
+                        
+            </div>
+            
+            
+    </div>
+    
+    <section>
+        <div id="shopcontent">
+            <div id="shopy1">
+                <img id="productimg" src="file:///C:/Users/BARAA/Desktop/soni%20designe/product3.jpg" alt="" width="400x" height="400x">
+                <h2  id="product">AEROREDY T-SHIRT</h2>
+                <span id="price1">25£</span>
+                <img id="imgshop" onclick="imgsh (1)" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATlJREFUSEvtluFRwkAQhT8q0BKgArUD6UAqwA7AStQOtAKlAuxAO5ASoAPmOXtMch7Hnjkm/sj9YRL29tt9m+TeiJ7WqCcufwXfAVdW9BewKm2gFHwPPAKXEWgLPAAv3gJKwE/A4kTiZ2DpgXvBkvbNEu4s+Ydd3wIq6sKuZ8D7KbgXrDlqpoJeA5so8RhQjOD6vakBVtJvS5STsjmKSaK4Vi2ejiXl2nZNgSBx3FRzHLm4n301wd4Ck2C9JupOc6y59ExI/sOKO25WXROsXC35c+BXe0D0cM2tinAvVVQqrnnPDQ6B3tml4o7uzXXcO7jLrDt1PIBLFBikPnznPa9TibRx7CD1/5Nax+Fnl6Fm9rZcScoIyKKG06hWDTrVZI2PnsfhD9mYWmZA5u+X6/RYn1pdF5u9s4D3gadnHx6JIfQAAAAASUVORK5CYII="/>
+            </div>
+            <div id="shopy3">
+                <img id="productimg" src="file:///C:/Users/BARAA/Desktop/soni%20designe/product2.jpg" alt="" width="400x" height="400x">
+                <h2  id="product2">BLEUTHOTHE</h2>
+                <span id="price2">20£</span>
+                <img  id="imgshop" onclick="imgsh (2)" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATlJREFUSEvtluFRwkAQhT8q0BKgArUD6UAqwA7AStQOtAKlAuxAO5ASoAPmOXtMch7Hnjkm/sj9YRL29tt9m+TeiJ7WqCcufwXfAVdW9BewKm2gFHwPPAKXEWgLPAAv3gJKwE/A4kTiZ2DpgXvBkvbNEu4s+Ydd3wIq6sKuZ8D7KbgXrDlqpoJeA5so8RhQjOD6vakBVtJvS5STsjmKSaK4Vi2ejiXl2nZNgSBx3FRzHLm4n301wd4Ck2C9JupOc6y59ExI/sOKO25WXROsXC35c+BXe0D0cM2tinAvVVQqrnnPDQ6B3tml4o7uzXXcO7jLrDt1PIBLFBikPnznPa9TibRx7CD1/5Nax+Fnl6Fm9rZcScoIyKKG06hWDTrVZI2PnsfhD9mYWmZA5u+X6/RYn1pdF5u9s4D3gadnHx6JIfQAAAAASUVORK5CYII="/>
+            </div>
+            <div id="shopy3">
+                <img id="productimg" src="file:///C:/Users/BARAA/Desktop/soni%20designe/product4.jpg" alt="" width="400x" height="400x">
+                <h2  id="product3">BOTTLE</h2>
+                <span id="price3">5£</span>
+                <img id="imgshop" onclick="imgsh (3)" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATlJREFUSEvtluFRwkAQhT8q0BKgArUD6UAqwA7AStQOtAKlAuxAO5ASoAPmOXtMch7Hnjkm/sj9YRL29tt9m+TeiJ7WqCcufwXfAVdW9BewKm2gFHwPPAKXEWgLPAAv3gJKwE/A4kTiZ2DpgXvBkvbNEu4s+Ydd3wIq6sKuZ8D7KbgXrDlqpoJeA5so8RhQjOD6vakBVtJvS5STsjmKSaK4Vi2ejiXl2nZNgSBx3FRzHLm4n301wd4Ck2C9JupOc6y59ExI/sOKO25WXROsXC35c+BXe0D0cM2tinAvVVQqrnnPDQ6B3tml4o7uzXXcO7jLrDt1PIBLFBikPnznPa9TibRx7CD1/5Nax+Fnl6Fm9rZcScoIyKKG06hWDTrVZI2PnsfhD9mYWmZA5u+X6/RYn1pdF5u9s4D3gadnHx6JIfQAAAAASUVORK5CYII="/>
+            </div>
+        </div>
+    </section>
+</div>
+<script src="projet.js" ></script> 
+</body>
+</html>

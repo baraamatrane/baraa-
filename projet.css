@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(219, 219, 219);
+    position: fixed;
+    /* z-index: 999; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    border-top: solid blue;
+}
+#containr {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow:-8px 0px 20px 4px hsl(0 4% 15% / 10%);
+    transition: 0.3s;
+}
+#active{
+    right: -370;
+}
+.logo{
+    text-decoration: none;
+    font-size: 1.8em;
+    text-align: center;
+    text-decoration: none;
+    color: #2323f8;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(37, 37, 254);
+    font-weight: 500;
+    padding-left: 30px;
+}
+#shopy1:hover{
+  padding: 10px;
+  border: 1px solid black;
+  transition: 0.4s;
+
+}
+#shopy2:hover{
+    padding: 10px;
+    border: 1px solid black;
+    transition: 0.4s;
+  
+  }
+  #shopy3:hover{
+    padding: 10px;
+    border: 1px solid black;
+    transition: 0.4s;
+  
+  }
+
+.navbar {
+    display: contents;
+}
+.navbar a:hover{
+    color: #00b7ff;
+}
+section {
+    padding: 163px 15px;
+}
+#productimg {
+    display: flex;
+}
+#shopcontent{
+    display: flex;
+    justify-content: space-between;
+}
+.icone {
+    cursor: pointer;
+}
+.mycart{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    
+}
+#quantity3{
+    border: 1px solid black;
+    outline-color: crimson;
+    width: 1.3rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+#quantity2{
+    border: 1px solid black;
+    outline-color: crimson;
+    width: 1.3rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+#quantity1{
+    border: 1px solid black;
+    outline-color: crimson;
+    width: 1.3rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.total3{
+    border-radius: 1px solid black; 
+    font-size: 1em;
+    font-weight: 600;
+}
+.total2{
+    border-radius: 1px solid black; 
+    font-size: 1em;
+    font-weight: 600;
+}
+.total1{
+    border-radius: 1px solid black; 
+    font-size: 1em;
+    font-weight: 600;
+}
+#buy{
+    display: flex;
+    margin:3.5rem auto 1px auto;
+    padding: 10px 11px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    top: 1%;
+    left: 5%;
+}
+.star{
+    border-radius: 1px solid black;
+}
+#buy:hover{
+    background-color: #2323f8;
+
+}
+/* #head {
+    display: grid;
+    grid-template-columns: 29% 49% 18%;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 2rem;
+} */
+.testcart2{
+    display: grid;
+    grid-template-columns: 32% 57% 18%;
+    align-items: center;
+    gap: 0.2rem;
+    margin: 5px;
+}
+.testcart3{
+    display: grid;
+    grid-template-columns: 32% 57% 18%;
+    align-items: center;
+    gap: 0.2rem;
+    margin: 5px;
+}
+.testcart1{
+    display: grid;
+    grid-template-columns: 32% 57% 18%;
+    align-items: center;
+    gap: 0.2rem;
+    margin: 5px;
+}
+.totalprice{
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 0.3rem;
+}
+/* .totalprice{
+    margin-left: 0.5em;
+} */
+#imgtash{
+    cursor: pointer;
+}
+.test{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.2em;
+    border-top: 1px white ;
+}
+#imgx {
+    cursor: pointer;
+}
+#imgshop{
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    display: block;
+    padding-left: 0px;
+    margin-left: -4px;
+  }
+/* #imgshop2{
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    display: block;
+    padding-left: 0px;
+    margin-left: -4px;
+  }
+#active{
+    width: 100px;
+    height:100px;
+}
+#imgshop3{
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+    display: block;
+    padding-left: 0px;
+    margin-left: -4px;
+  } */
+.pricetotal{
+    display: flex;
+    justify-content: flex-end;
+    height: 0px;
+    width: 90%;
+    position: absolute;
+}
